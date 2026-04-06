@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9ecef;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  padding: 20px;
+}
+
+.curriculo {
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  display: flex;
+}
+
+.barra-esquerda {
+  background-color: #0056b3;
+  color: white;
+  width: 35%;
+  padding: 40px 20px;
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+.barra-esquerda h2 {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.barra-esquerda ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.barra-esquerda a {
+  color: white;
+  text-decoration: none;
+}
+
+.conteudo-principal {
+  width: 65%;
+  padding: 40px;
+}
+
+h1{
+  color: #0056b3;
+}
+
+.conteudo-principal h2 {
+  color: #0056b3;
+  margin-top: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.apresentacao p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.fotos-trabalhos-audio-visual {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.galeria-fotos {
+  margin-top: 15px;
+}
+
+.galeria-fotos img {
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.trabalhos-ti ul {
+  margin-left: 20px;
+}
+
+.trabalhos-ti a {
+  color: #0056b3;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  font-size: 12px;
+}
